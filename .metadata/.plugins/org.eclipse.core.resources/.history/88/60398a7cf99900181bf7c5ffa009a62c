@@ -1,0 +1,10 @@
+package problems.algorithms;
+
+public class TwoSum {
+
+	public static void main(String[] args) {
+		//Approach 1: Brute Force
+		
+	}
+
+}

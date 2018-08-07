@@ -1,0 +1,15 @@
+package problems.algorithms;
+
+import java.util.HashMap;
+
+public class LongestSubstring {
+
+	public int lengthOfLongestSubstring(String s) {
+		HashMap<Character, Integer> hm = new HashMap();
+		for(int i = 0; i < s.length(); i++) {
+			char c = s.charAt(i);
+			if(hm.containsKey(c))
+		}
+	}
+
+}

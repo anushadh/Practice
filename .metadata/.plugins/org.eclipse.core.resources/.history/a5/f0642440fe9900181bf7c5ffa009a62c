@@ -1,0 +1,30 @@
+package problems.algorithms;
+
+import java.util.HashMap;
+
+public class LongestSubstring {
+	
+	public static void main(String args[]) {
+		LongestSubstring ls = new LongestSubstring();
+		String s = "abcabcbb";
+		int length = ls.lengthOfLongestSubstring(s);
+		System.out.println(length);
+	}
+
+	public int lengthOfLongestSubstring(String s) {
+		HashMap<Character, Integer> hm = new HashMap();
+		int length = 0;
+		for(int i = 0; i < s.length(); i++) {
+			char c = s.charAt(i);
+			if(hm.containsKey(c)) {
+				length = 0;
+				hm.clear();
+			} else {
+				length++;
+				hm.put(c, i);
+			}
+		}
+		return length;
+	}
+
+}
