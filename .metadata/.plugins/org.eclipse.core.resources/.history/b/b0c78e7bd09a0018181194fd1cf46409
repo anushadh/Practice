@@ -1,0 +1,78 @@
+package problems.algorithms;
+//Problem 7:
+
+/*Given a 32-bit signed integer, reverse digits of an integer.*/
+
+public class ReverseInteger {
+
+	public static void main(String[] args) {
+		ReverseInteger reverseInteger = new ReverseInteger();
+		int x = 0;
+		int reverseInt = reverseInteger.reverse(x);
+		System.out.println(reverseInt);
+	}
+	
+	//O(N)
+	public int reverse(int x) {
+		try {
+			if(x == 0) {
+				return 0;
+			}
+			String s = Integer.toString(x);
+			StringBuffer newS = new StringBuffer();
+			if(x > 0) {
+				for(int i = s.length()-1; i >= 0; i--) {
+					newS.append(s.charAt(i));
+				}
+				if(Long.parseLong(newS.toString()) > Integer.MAX_VALUE) {
+					return 0;
+				} else {
+					return Integer.parseInt(newS.toString());
+				}
+			} else {
+				for(int i = s.length()-1; i > 0; i--) {
+					newS.append(s.charAt(i));
+				}
+				if(Long.parseLong(newS.toString()) > Integer.MAX_VALUE) {
+					return 0;
+				} else {
+					return -(Integer.parseInt(newS.toString()));
+				}
+			} 
+		} catch(NumberFormatException e) {
+			return 0;
+		}
+	}
+	
+	public int reverse(int x) {
+		try {
+			if(x == 0) {
+				return 0;
+			}
+			String s = Integer.toString(x);
+			StringBuffer newS = new StringBuffer();
+			if(x > 0) {
+				for(int i = s.length()-1; i >= 0; i--) {
+					newS.append(s.charAt(i));
+				}
+				if(Long.parseLong(newS.toString()) > Integer.MAX_VALUE) {
+					return 0;
+				} else {
+					return Integer.parseInt(newS.toString());
+				}
+			} else {
+				for(int i = s.length()-1; i > 0; i--) {
+					newS.append(s.charAt(i));
+				}
+				if(Long.parseLong(newS.toString()) > Integer.MAX_VALUE) {
+					return 0;
+				} else {
+					return -(Integer.parseInt(newS.toString()));
+				}
+			} 
+		} catch(NumberFormatException e) {
+			return 0;
+		}
+	}
+
+}

@@ -1,0 +1,29 @@
+package problems.algorithms;
+
+/*Problem 14:
+Write a function to find the longest common prefix string amongst an array of strings.
+
+If there is no common prefix, return an empty string "".
+ */
+public class LongestCommonPrefix {
+
+	public static void main(String[] args) {
+		LongestCommonPrefix lcp = new LongestCommonPrefix();
+		String[] strs = {"flower","flow","flight"};
+		System.out.println(lcp.longestCommonPrefix(strs));
+	}
+
+	public String longestCommonPrefix(String[] strs) {
+		Arrays.sort(str);
+		findSmallestString(strs);
+	}
+
+	private String findSmallestString(String[] strs) {
+		int min = 0;
+		for(int i = 0; i < strs.length; i++) {
+			
+		}
+	}
+	
+	Arrays.sort(str);
+}

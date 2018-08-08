@@ -1,0 +1,15 @@
+package problems.algorithms;
+
+public class RomanToIntger {
+	
+	
+	
+	public int romanToInt(String s) {
+        String finalString = "";
+        finalString = s.replace("IV", "4");
+        finalString = s.replace("IX", "9");
+        finalString = s.replace("XL", "49");
+        finalString = s.replace("XC", "90");
+    }
+	
+}

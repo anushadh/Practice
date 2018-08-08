@@ -1,0 +1,28 @@
+package problems.algorithms;
+
+/*Problem 9:
+ * 
+Determine whether an integer is a palindrome. An integer is a 
+palindrome when it reads the same backward as forward.*/
+
+public class PalindromeNumber {
+	
+	public static void main(String args[]) {
+		PalindromeNumber pn = new PalindromeNumber();
+		int x = 0;
+		System.out.println(pn.isPalindrome(x));
+	}
+	
+	//O(N)
+	public boolean isPalindrome(int x) {
+		if(x == 0) return true;
+		if(x < 0) return false;
+		String s = Integer.toString(x);
+		StringBuffer sb = new StringBuffer();
+		for(int i = s.length()-1; i >= 0; i--) {
+			sb.append(s.charAt(i));
+		}
+		
+		return false;
+	}
+}

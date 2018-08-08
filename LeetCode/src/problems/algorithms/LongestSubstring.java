@@ -7,7 +7,7 @@ public class LongestSubstring {
 	
 	public static void main(String args[]) {
 		LongestSubstring ls = new LongestSubstring();
-		String s = " ";
+		String s = "abcabcbb";
 		int length = ls.lengthOfLongestSubstring(s);
 		System.out.println(length);
 	}
@@ -19,20 +19,26 @@ public class LongestSubstring {
 		int max = 0;
 		for(int i = 0; i < s.length(); i++) {
 			char c = s.charAt(i);
-			System.out.println(i + " -- " + c);
+			//System.out.println(c + " -- index" + i);
 			if(hs.contains(c)) {
-				System.out.println("Present " + c);
+				//System.out.println("Present: " + c);
 				if(length > max) {
 					max = length;
 				}
-				i = i - 1;
+				i = i - 1; //all substrings not covered
 				length = 0;
 				hs.clear();
 			} else {
 				length++;
+				System.out.println("else " + c + " " + length);
+				//System.out.println(length);
+				if(length > max) {
+					max = length;
+				}
 				hs.add(c);
 			}
 		}
+		System.out.println(max);
 		return max;
 	}
 

@@ -1,0 +1,12 @@
+package problems.algorithms;
+//Problem 7:
+
+/*Given a 32-bit signed integer, reverse digits of an integer.*/
+public class ReverseInteger {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
