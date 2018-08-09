@@ -1,0 +1,37 @@
+package problems.algorithms;
+
+/*Problem 26:
+Given a sorted array nums, remove the duplicates in-place such that each element appear 
+only once and return the new length.
+
+Do not allocate extra space for another array, you must do this by modifying 
+the input array in-place with O(1) extra memory.*/
+
+public class RemoveDuplicates {
+
+	public static void main(String[] args) {
+		RemoveDuplicates rd = new RemoveDuplicates();
+		int[] nums = {1,1,1,1,1};
+		System.out.println(rd.removeDuplicates(nums));
+	}
+	
+	//This gives only length of distinct values in sorted array
+	public int removeDuplicates(int[] nums) {
+        if(nums.length == 0 || nums ==  null) {
+        	return 0;
+        }
+		int length = 1, temp = nums[0];
+		try {
+        	for(int i : nums) {
+        		if(temp != i) {
+        			length++;
+        		} 
+        		temp = i;
+        	}
+        }catch(Exception e) {
+        	return 0;
+        }
+		return length;
+    }
+
+}

@@ -22,6 +22,7 @@ public class ValidParentheses {
 
 	public boolean isValid(String s) {
 		try {
+			if(s == null || s.equals("")) return true;
 			while(s.length() > 0) {
 				String temp = s;
 				s = s.replace("()", "");
