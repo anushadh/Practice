@@ -1,0 +1,22 @@
+package problems.algorithms;
+
+import java.util.Arrays;
+
+public class ValidAnagram {
+
+	public static void main(String[] args) {
+		ValidAnagram va = new ValidAnagram();
+		String s = "";
+		String t = "";
+		System.out.println(va.isAnagram(s, t));;
+	}
+	
+	public boolean isAnagram(String s, String t) {
+        char[] sArray = s.toCharArray();
+        char[] tArray = t.toCharArray();
+        Arrays.sort(sArray);
+        Arrays.sort(sArray);
+		
+		return false;
+    }
+}
