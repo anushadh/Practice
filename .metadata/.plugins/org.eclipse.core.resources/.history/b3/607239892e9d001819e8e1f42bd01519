@@ -1,0 +1,31 @@
+package problems.algorithms;
+
+import java.util.Arrays;
+
+public class PlusOne {
+
+	public static void main(String[] args) {
+		PlusOne po = new PlusOne();
+		int[] digits = {1,2,3};
+		int[] plusOne = po.plusOne(digits);
+		System.out.println(Arrays.toString(plusOne));
+	}
+	
+	public int[] plusOne(int[] digits) {
+		StringBuffer sb = new StringBuffer();
+		for(int i : digits) {
+			sb.append(i);
+		}
+		System.out.println("sb: " + sb.toString());
+		int plusOne = Integer.parseInt(sb.toString()) + 1;
+		System.out.println("plusOne: " + plusOne);
+		String newS = Integer.toString(plusOne);
+		System.out.println("newS: " + newS);
+		int[] finalInt = new int[newS.length()];
+		for(int i = 0; i < newS.length(); i++) {
+			finalInt[i] = (int)newS.charAt(i);
+			System.out.println(finalInt[i]);
+		}
+		return finalInt;
+    }
+}
