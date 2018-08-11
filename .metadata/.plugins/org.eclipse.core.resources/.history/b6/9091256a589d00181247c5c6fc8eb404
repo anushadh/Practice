@@ -1,0 +1,9 @@
+package problems.algorithms;
+
+public class MissingNumber {
+
+	public static void main(String[] args) {
+		MissingNumber mn = new MissingNumber();
+	}
+
+}
