@@ -1,0 +1,42 @@
+package problems.algorithms;
+
+public class ReverseVowelsofaString {
+
+	public static void main(String[] args) {
+		ReverseVowelsofaString rvs = new ReverseVowelsofaString();
+		String s = "hello";
+		System.out.println(rvs.reverseVowels(s));
+	}
+	
+	public String reverseVowels(String s) {
+        if(s.equals("") || s == null) {
+            return "";
+        }
+        StringBuilder sb = new StringBuilder();
+        char[] charArray = new char[s.length()];
+        for(int i = 0; i < s.length(); i++) {
+            if(isVowel(s.charAt(i))) {
+            	sb.append(s.charAt(i));
+            	charArray[i] = ' ';
+            } 
+        }
+        int j = sb.length();
+        for(int i = 0; i < s.length(); i++) {
+            if(s.charAt(i) == ' ') {
+            	charArray[i] = sb.charAt(j);
+            	j--;
+            } 
+        }
+        return charArray.toString();
+    }
+
+	private boolean isVowel(char charAt) {
+		if(charAt == 'a' || 
+				charAt == 'e' ||
+				charAt == 'i' ||
+				charAt == 'o' ||
+				charAt == 'u')
+		return true;
+		else return false;
+	}
+}

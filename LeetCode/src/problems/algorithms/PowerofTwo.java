@@ -1,5 +1,7 @@
 package problems.algorithms;
-
+/*
+Problem 231: 
+	Given an integer, write a function to determine if it is a power of two.*/
 public class PowerofTwo {
 
 	public static void main(String[] args) {

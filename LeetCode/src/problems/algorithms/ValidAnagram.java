@@ -3,6 +3,12 @@ package problems.algorithms;
 import java.util.HashMap;
 import java.util.Map.Entry;
 
+
+/*Problem 242. Valid Anagram
+Given two strings s and t , write a function to determine if t is an anagram of s.*/
+
+
+
 public class ValidAnagram {
 
 	public static void main(String[] args) {

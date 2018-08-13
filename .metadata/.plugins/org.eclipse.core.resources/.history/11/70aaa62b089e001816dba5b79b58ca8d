@@ -1,0 +1,30 @@
+package problems.algorithms;
+
+public class ReverseVowelsofaString {
+
+	public static void main(String[] args) {
+
+	}
+	
+	public String reverseVowels(String s) {
+        if(s.equals("") || s == null) {
+            return "";
+        }
+        char[] charArray = char[s.length()];
+        for(int i = 0; i < s.length(); i++) {
+            if(isVowel(s.charAt(i))) {
+                
+            }
+        }
+    }
+
+	private boolean isVowel(char charAt) {
+		if(charAt == 'a' || 
+				charAt == 'e' ||
+				charAt == 'i' ||
+				charAt == 'o' ||
+				charAt == 'u')
+		return true;
+		else return false;
+	}
+}

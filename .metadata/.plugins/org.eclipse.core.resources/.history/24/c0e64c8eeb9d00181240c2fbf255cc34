@@ -1,0 +1,28 @@
+package problems.algorithms;
+
+public class PowerOfThree {
+
+	public static void main(String[] args) {
+		PowerOfThree pt = new PowerOfThree();
+		int n = 9;
+		System.out.println(pt.isPowerOfThree(n));;
+	}
+
+	public boolean isPowerOfThree(int n) {
+		if(n == 0) {
+			return false;
+		}
+		if(n == 1) {
+			return true;
+		}
+		int rem = 0;
+		while(n != 1) {
+			rem = n%3;
+			if(rem != 0) {
+				return false;
+			}
+			n = n/3;
+		}
+		return false;
+	}
+}
