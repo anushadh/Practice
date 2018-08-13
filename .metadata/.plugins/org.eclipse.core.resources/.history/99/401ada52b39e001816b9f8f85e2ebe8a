@@ -1,6 +1,6 @@
 package problems.algorithms;
 
-import java.util.HashSet;
+import java.util.HashMap;
 
 /*217. Contains Duplicate
 Given an array of integers, find if the array contains any duplicates.
@@ -34,7 +34,6 @@ Your function should return true if any value appears at least twice in the arra
 	     //O(N)
 	     HashSet<Integer> hs = new HashSet<Integer>();
 	     for(int i : nums) {
-	    	 if(hs.contains(i)) return true;
 	    	 hs.add(i);
 	     }
 	     boolean result = hs.size() != nums.length ? true : false;

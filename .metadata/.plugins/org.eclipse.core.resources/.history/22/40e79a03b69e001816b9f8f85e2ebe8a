@@ -1,0 +1,15 @@
+package problems.algorithms;
+
+/*709. To Lower Case
+Implement function ToLowerCase() that has a string parameter str, and returns the same string in lowercase.
+*/
+
+
+public class ToLowerCase {
+
+	public static void main(String[] args) {
+
+	}
+	
+	
+}
