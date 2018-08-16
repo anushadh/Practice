@@ -19,7 +19,7 @@ public class ValidNumber {
 
 	public static void main(String[] args) {
 		ValidNumber vn = new ValidNumber();
-		String s = ".1";
+		String s = "84656e656D";
 		System.out.println(vn.isNumber(s));
 	}
 
@@ -38,11 +38,12 @@ public class ValidNumber {
 				}
 				return (isLong(fPart) && isLong(lPart));
 			} else {
-				return isLong(s) || isDouble(s);
+				return isLong(s);
 			}
 		} catch(Exception e) {
 			return false;
 		}
+		return false;
 	}
 	
 	public boolean isLong(String s) {
@@ -53,31 +54,4 @@ public class ValidNumber {
 			return false;
 		}
 	}
-	
-	public boolean isDouble(String s) {
-		try {
-			double d = Double.parseDouble(s);
-			return true;
-		}catch(Exception e1) {
-			return false;
-		}
-	}
-/*	public boolean isNumber(String s) {
-        if(s == "" || s.length() == 0 || s.trim() == "") return false;
-		s = s.trim();
-        try {
-            if(s.endsWith("f")) {
-				return false;
-			}
-			long l = Long.parseLong(s);
-			return true;
-		} catch(Exception e) {
-			try {
-				double d = Double.parseDouble(s);
-				return true;
-			}catch(Exception e1) {
-			}
-		}
-		return false;
-    }*/
 }
