@@ -10,7 +10,7 @@ public class ValidPalindrome {
 
 	public static void main(String[] args) {
 		ValidPalindrome vp = new ValidPalindrome();
-		String s = "A man, a plan, a canal: Panama";
+		String s = "A man      b";
 		System.out.println(vp.isPalindrome(s));
 	}
 	
@@ -28,12 +28,9 @@ public class ValidPalindrome {
         		end--;
         		continue;
         	}
-        	if(Character.toLowerCase(array[start]) != Character.toLowerCase(array[end])) {
-        		//System.out.println(array[start] + " " + array[end]);
+        	if(array[start] != array[end]) {
         		return false;
         	}
-        	start++;
-        	end--;
         }
         return true;
     }

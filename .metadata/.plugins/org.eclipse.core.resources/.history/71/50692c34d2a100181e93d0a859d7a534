@@ -28,8 +28,8 @@ public class ValidPalindrome {
         		end--;
         		continue;
         	}
-        	if(Character.toLowerCase(array[start]) != Character.toLowerCase(array[end])) {
-        		//System.out.println(array[start] + " " + array[end]);
+        	if(array[start] != array[end]) {
+        		System.out.println(array[start] + " " + array[end]);
         		return false;
         	}
         	start++;

@@ -10,7 +10,7 @@ public class ValidPalindrome {
 
 	public static void main(String[] args) {
 		ValidPalindrome vp = new ValidPalindrome();
-		String s = "A man, a plan, a canal: Panama";
+		String s = "A man      b";
 		System.out.println(vp.isPalindrome(s));
 	}
 	
@@ -20,30 +20,22 @@ public class ValidPalindrome {
         char[] array = s.toCharArray();
         int start = 0, end = s.length()-1;
         while(start < end) {
-        	if(!isAlphanumeric(array[start])) {
-        		start++;
-        		continue;
+        	if(isAlphanumeric(array[start])) {
+        		
         	}
-        	if(!isAlphanumeric(array[end])) {
-        		end--;
-        		continue;
-        	}
-        	if(Character.toLowerCase(array[start]) != Character.toLowerCase(array[end])) {
-        		//System.out.println(array[start] + " " + array[end]);
-        		return false;
-        	}
-        	start++;
-        	end--;
         }
-        return true;
+        
+        String[] array = s.trim().split("\\s*\\W\\s*");
+        StringBuffer sb = new StringBuffer();
+        for(String sub : array) {
+        	sb.append(sub);
+        }
+       // System.out.println(sb.reverse().toString());
+        return (sb.toString().equalsIgnoreCase(sb.reverse().toString())); 
     }
 
 	private boolean isAlphanumeric(char c) {
-		if((c >= 'a' && c <= 'z') || 
-				(c >= 'A' && c <= 'Z') ||
-		(c >= '0' && c <= '9')) {
-			return true;
-		}
+		if(c.matches)
 		return false;
 	}
 	
