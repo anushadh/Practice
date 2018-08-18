@@ -16,7 +16,7 @@ public class ValidPalindrome {
 	
 	public boolean isPalindrome(String s) {
         if(s == "" || s.length() == 0 || s.trim() == "") return true;
-        
+       // s = s.toLowerCase();
         char[] array = s.toCharArray();
         int start = 0, end = s.length()-1;
         while(start < end) {
@@ -29,6 +29,7 @@ public class ValidPalindrome {
         		continue;
         	}
         	if(Character.toLowerCase(array[start]) != Character.toLowerCase(array[end])) {
+        	//if(array[start] != array[end]) {
         		//System.out.println(array[start] + " " + array[end]);
         		return false;
         	}
@@ -40,7 +41,7 @@ public class ValidPalindrome {
 
 	private boolean isAlphanumeric(char c) {
 		if((c >= 'a' && c <= 'z') || 
-				(c >= 'A' && c <= 'Z') ||
+				/*(c >= 'A' && c <= 'Z') ||*/
 		(c >= '0' && c <= '9')) {
 			return true;
 		}
