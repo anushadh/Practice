@@ -13,7 +13,7 @@ public class RemoveDuplicates {
 
 	public static void main(String[] args) {
 		RemoveDuplicates rd = new RemoveDuplicates();
-		int[] nums = {2,2};
+		int[] nums = {1};
 		int length = rd.removeDuplicates(nums);
 		System.out.println(length);
 		System.out.println(Arrays.toString(nums));
@@ -27,7 +27,7 @@ public class RemoveDuplicates {
         }
         int length = nums.length;
         int i = 0;
-		while((i < length-1)) {
+		while((i < length)  && (i+1 < length)) {
 			if(nums[i] == nums[i+1]) {
 				//System.out.println(nums[i] + " " + nums[i+1] + " " + i);
 				swapElements(nums, i);
@@ -38,7 +38,7 @@ public class RemoveDuplicates {
 		}
 		return i+1;
     }
-//  && (i+1 < length)
+
 	private void swapElements(int[] nums, int i) {
 		for(int j = i; j < nums.length-1; j++) {
 			//System.out.println(nums[i] + nums[i+1]);
