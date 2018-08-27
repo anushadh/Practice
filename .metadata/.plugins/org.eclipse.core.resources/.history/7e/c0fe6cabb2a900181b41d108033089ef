@@ -1,0 +1,15 @@
+package problems.algorithms;
+
+public class UniqueMorseCodeWords {
+
+	public static void main(String[] args) {
+		UniqueMorseCodeWords umcw = new UniqueMorseCodeWords();
+		String[] morseCodes = {".-","-...","-.-.","-..",".","..-.","--.","....","..",".---","-.-",".-..",
+				"--","-.","---",".--.","--.-",".-.","...","-","..-","...-",".--","-..-","-.--","--.."};
+		String[] words = {"gin", "zen", "gig", "msg"};
+	}
+	
+	public int uniqueMorseRepresentations(String[] words) {
+        return 0;
+    }
+}

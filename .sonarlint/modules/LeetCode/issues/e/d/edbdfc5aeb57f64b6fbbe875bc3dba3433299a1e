@@ -1,0 +1,12 @@
+
+„squid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(ØÌùÆÿÿÿÿÿ8ÐõÁÔÖ,HäRMAJORZ
+CODE_SMELL
+]squid:S1481")Remove this unused "rdsa" local variable.(›Ø–ô8£ÓøúÖ,HçRMINORZ
+CODE_SMELL
+q
+squid:S106"9Replace this use of System.out or System.err by a logger.(Å´§¡ýÿÿÿÿ8ôÐ£ÔÖ,HåRMAJORZ
+CODE_SMELL
+„squid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(‹ÐôÙûÿÿÿÿ8£ÓøúÖ,HæRMAJORZ
+CODE_SMELL
+lsquid:S1854"8Remove this useless assignment to local variable "rdsa".(›Ø–ô8£ÓøúÖ,HèRMAJORZ
+CODE_SMELL
