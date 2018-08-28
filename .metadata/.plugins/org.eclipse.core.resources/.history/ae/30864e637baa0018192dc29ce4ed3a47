@@ -24,7 +24,6 @@ public class TwoSumII {
 		System.out.println(Arrays.toString(ts.twoSum(numbers, target)));
 	}
 	
-	//Two pointers
 	public int[] twoSum(int[] numbers, int target) {
 		int i = 0;
 		int j = numbers.length-1;
@@ -42,8 +41,7 @@ public class TwoSumII {
 		return null;
 	}
 	
-	//O (N^2)
-	/*public int[] twoSum(int[] numbers, int target) {
+	public int[] twoSum(int[] numbers, int target) {
 		for(int i = 0; i < numbers.length-1; i++) {
 			for(int j = numbers.length-1; j >= 0 ; j--) {
 				if(numbers[i] + numbers[j] == target) {
@@ -52,5 +50,5 @@ public class TwoSumII {
 			}
 		}
 		return null;
-	}*/
+	}
 }
