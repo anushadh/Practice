@@ -1,0 +1,10 @@
+
+squid:CommentedOutCodeLine-"<This block of commented-out lines of code should be removed.(ŽÑ³»8à½¾ö×,HëRMAJORZ
+CODE_SMELL
+Zsquid:S1168)"&Return an empty array instead of null.(¥¹ï8È¿ö×,HìRMAJORZ
+CODE_SMELL
+q
+squid:S106"9Replace this use of System.out or System.err by a logger.(èˆŠ”øÿÿÿÿ8È®‰ö×,H¶RMAJORZ
+CODE_SMELL
+squid:CommentedOutCodeLine?"<This block of commented-out lines of code should be removed.(šš¾¾8¿¸ö×,HéRMAJORZ
+CODE_SMELL

@@ -1,5 +1,6 @@
 package problems.algorithms;
 
+import java.util.Arrays;
 import java.util.HashSet;
 
 /*287. Find the Duplicate Number
@@ -19,18 +20,28 @@ public class FindtheDuplicateNumber {
 
 	public static void main(String[] args) {
 		FindtheDuplicateNumber fdn = new FindtheDuplicateNumber();
-		int[] nums = {};
+		int[] nums = {1,3,4,2,2};
 		System.out.println(fdn.findDuplicate(nums));
 	}
 	
 	public int findDuplicate(int[] nums) {
+		Arrays.sort(nums);
+        
+        for(int i = 0; i < nums.length-1; i++) {
+        	if(nums[i] == nums[i+1]) return nums[i];
+        }
+        
+        return -1;
+    }
+	/*//Using a hash set
+	public int findDuplicate(int[] nums) {
         HashSet<Integer> hs = new HashSet<>();
         
-        for(int i : nums) {
+        for(int i : nums) {v
         	if(hs.contains(i)) return i;
         	else hs.add(i);
         }
         
         return -1;
     }
-}
+*/}
