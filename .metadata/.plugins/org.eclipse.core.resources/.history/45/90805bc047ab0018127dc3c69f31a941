@@ -1,0 +1,30 @@
+package dataStructures;
+
+import java.util.*;
+
+public class ArrayLists {
+
+	public static void main(String[] args) {
+		
+		//Initialize Array List
+		List<String> myList = new ArrayList<>();
+		List<String> myList2;
+		
+		//Find length 
+		System.out.println("Length of list: " + myList.size());
+		
+		//Access elements in list
+		System.out.println("Get element at index 3: " + myList.get(3));
+		
+		//Add elements to list
+		myList.add("fsfj");
+		myList.add(1, "dfsf");
+		
+		//Modify elements in list
+		myList.set(1, "juty");
+		
+		//Remove elements
+		myList.remove(0);
+	}
+
+}
