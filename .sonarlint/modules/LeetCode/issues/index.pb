@@ -15,3 +15,11 @@ c
 3src/problems/algorithms/FindtheDuplicateNumber.java,4\5\45d90c4e7b04ce38d29c1cf6afd2495a437c56ab
 V
 &src/dataStructures/FindPivotIndex.java,b\7\b7bd844f281a067d441ce3b99eb253b80aa75d58
+M
+src/dataStructures/Array.java,2\b\2b03ff4fa1c7f3b9cc11a12a2b555346e34e0f49
+i
+9src/dataStructures/LargestNumberAtLeastTwiceofOthers.java,8\f\8fb4248ae2447bf072cec13ba90566576bbf1b0d
+Q
+!src/problems/algorithms/Sum3.java,1\f\1f5940290a01bdd4b963953eb16e42333a9cd8a0
+[
++src/problems/algorithms/MonotonicArray.java,0\d\0d047429797a8da560e08d40cca7a45700fb0ab0
