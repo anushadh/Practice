@@ -23,3 +23,7 @@ Q
 !src/problems/algorithms/Sum3.java,1\f\1f5940290a01bdd4b963953eb16e42333a9cd8a0
 [
 +src/problems/algorithms/MonotonicArray.java,0\d\0d047429797a8da560e08d40cca7a45700fb0ab0
+\
+,src/problems/algorithms/FlippinganImage.java,d\b\dbf9c7663c772b70b9504dffc655e2506505c5f9
+\
+,src/problems/algorithms/TransposeMatrix.java,b\8\b884d8e21e5ccd16314b5e4dfd097f644a890a54
