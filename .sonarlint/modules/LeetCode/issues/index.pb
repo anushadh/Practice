@@ -27,3 +27,5 @@ Q
 ,src/problems/algorithms/FlippinganImage.java,d\b\dbf9c7663c772b70b9504dffc655e2506505c5f9
 \
 ,src/problems/algorithms/TransposeMatrix.java,b\8\b884d8e21e5ccd16314b5e4dfd097f644a890a54
+\
+,src/problems/algorithms/ShiftingLetters.java,7\c\7c48c5cd3b98471fb8b4d16a58cdceb47480f1ae
