@@ -1,0 +1,34 @@
+package problems.algorithms;
+
+/*219. Contains Duplicate II
+Given an array of integers and an integer k, find out whether there are 
+two distinct indices i and j in the array such that nums[i] = nums[j] and the 
+absolute difference between i and j is at most k.*/
+
+public class ContainsDuplicateII {
+
+	public static void main(String[] args) {
+		ContainsDuplicateII cd = new ContainsDuplicateII();
+		int[] nums = {9,9};
+		int k = 2;
+		System.out.println(cd.containsNearbyDuplicate(nums, k));
+	}
+
+	public boolean containsNearbyDuplicate(int[] nums, int k) {
+		if(k >= nums.length) k = nums.length-1;
+		System.out.println(nums.length-k-1);
+		for(int i = 0; i < nums.length-k-1; i++) {
+			int temp = k;
+			System.out.println(nums[i] + " " + nums[i+temp]);
+			while(temp >= 0) {
+				if(nums[i] == nums[i+temp]) {
+					return true;
+				}
+				temp--;
+			}
+			
+		}
+		return false;
+	}
+
+}

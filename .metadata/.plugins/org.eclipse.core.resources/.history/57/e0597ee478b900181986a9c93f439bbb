@@ -1,0 +1,9 @@
+package problems.contest;
+
+public class VegetableMarket {
+
+	public static void main(String[] args) {
+
+	}
+
+}
