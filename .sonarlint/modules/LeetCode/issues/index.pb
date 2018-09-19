@@ -29,3 +29,7 @@ Q
 ,src/problems/algorithms/TransposeMatrix.java,b\8\b884d8e21e5ccd16314b5e4dfd097f644a890a54
 \
 ,src/problems/algorithms/ShiftingLetters.java,7\c\7c48c5cd3b98471fb8b4d16a58cdceb47480f1ae
+V
+&src/problems/algorithms/GoatLatin.java,e\0\e006e96e0c25b1e43c549fc5ede9c2e081da180a
+\
+,src/problems/algorithms/ReverseStringII.java,3\3\33ab194fd85c75ca79084667a4062290f88618ae
