@@ -1,6 +1,6 @@
 
-l
-squid:S106"9Replace this use of System.out or System.err by a logger.(Á¶†Í8à‘ëÙŞ,H®RMAJORZ
+csquid:S1066"/Merge this if statement with the enclosing one.(§¨ˆŒ8¿ùÚŞ,HÁRMAJORZ
 CODE_SMELL
-csquid:S1066"/Merge this if statement with the enclosing one.(§¨ˆŒ8¿ùÚŞ,HÀRMAJORZ
+l
+squid:S106"9Replace this use of System.out or System.err by a logger.(Á¶†Í8à‘ëÙŞ,HÂRMAJORZ
 CODE_SMELL
