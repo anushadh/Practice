@@ -37,3 +37,9 @@ V
 ,src/problems/algorithms/ArrayPartitionI.java,b\f\bf1041371a7ac505635d50db39c57e4c92bb9f37
 ]
 -src/problems/algorithms/ReshapetheMatrix.java,c\a\cae42551d2a2ac266259574914df4f7815e138ea
+_
+/src/problems/algorithms/MaxConsecutiveOnes.java,6\1\61ba87b875841709159ff9708a31948bb478ee78
+`
+0src/problems/algorithms/ContainsDuplicateII.java,3\1\315bdbd183dd3b60a34b5dd2e61a630ec3a8466f
+O
+src/dataStructures/Array2D.java,a\d\adc2b36d3bb5ea7924fd8672ef3531065c581c39
