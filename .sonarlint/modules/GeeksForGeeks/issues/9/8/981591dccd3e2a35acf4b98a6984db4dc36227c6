@@ -1,0 +1,9 @@
+
+Xsquid:S1481)"&Remove this unused "S" local variable.(‚ÓÕ ùÿÿÿÿHÑRMINORZ
+CODE_SMELL
+gsquid:S1854)"5Remove this useless assignment to local variable "S".(‚ÓÕ ùÿÿÿÿHÒRMAJORZ
+CODE_SMELL
+„squid:S00117&"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ˆ´ª»üÿÿÿÿHÓRMINORZ
+CODE_SMELL
+„squid:S00117)"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‚ÓÕ ùÿÿÿÿHÔRMINORZ
+CODE_SMELL
