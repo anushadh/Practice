@@ -9,6 +9,11 @@ public class Array2D {
 	public static void main(String[] args) {
 		int[][] myArray = new int[3][4];
 		printArray(myArray);
+		
+		int[][] myArray2 = new int[2][];
+		myArray2[0] = new int[2];
+		myArray2[1] = new int[] {1, 2, 3, 4};
+		printArray(myArray2);
 	}
 
 	public static void printArray(int[][] array) {
@@ -16,7 +21,7 @@ public class Array2D {
 		for(int m = 0; m < array.length; m++) {
 			for(int n = 0; n < array[m].length; n++) {
 
-				System.out.print("(" + m + " " + n + ")");
+				System.out.print(array[m][n] + " ");
 			}
 			System.out.println();
 		}
