@@ -8,8 +8,19 @@ public class Array2D {
 
 	public static void main(String[] args) {
 		int[][] myArray = new int[3][4];
+		printArray(myArray);
 	}
-	
-	
+
+	public static void printArray(int[][] array) {
+
+		for(int m = 0; m < array.length; m++) {
+			for(int n = 0; n < array[m].length; n++) {
+
+				System.out.print("(" + m + " " + n + ")");
+			}
+			System.out.println();
+		}
+
+	}
 
 }

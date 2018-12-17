@@ -1,14 +1,14 @@
 
+squid:CommentedOutCodeLine6"<This block of commented-out lines of code should be removed.(£ØÃç8ðîž‘å,H‘RMAJORZ
+CODE_SMELL
 q
-squid:S106#"9Replace this use of System.out or System.err by a logger.(Æ€ß—øÿÿÿÿ8œ¬Ÿå,HàRMAJORZ
+squid:S106#"9Replace this use of System.out or System.err by a logger.(Æ€ß—øÿÿÿÿ8œ¬Ÿå,H’RMAJORZ
+CODE_SMELL
+squid:CommentedOutCodeLine4"<This block of commented-out lines of code should be removed.(£ØÃç8ðîž‘å,H“RMAJORZ
+CODE_SMELL
+q
+squid:S106'"9Replace this use of System.out or System.err by a logger.(ªÓ¼áþÿÿÿÿ8Ùè¢å,H”RMAJORZ
 CODE_SMELL
 l
-squid:S106%"9Replace this use of System.out or System.err by a logger.(×•œ²8Ûÿ¡å,HãRMAJORZ
-CODE_SMELL
-q
-squid:S106'"9Replace this use of System.out or System.err by a logger.(ªÓ¼áþÿÿÿÿ8Ùè¢å,HäRMAJORZ
-CODE_SMELL
-squid:CommentedOutCodeLine4"<This block of commented-out lines of code should be removed.(£ØÃç8ðîž‘å,HRMAJORZ
-CODE_SMELL
-squid:CommentedOutCodeLine6"<This block of commented-out lines of code should be removed.(£ØÃç8ðîž‘å,HŽRMAJORZ
+squid:S106%"9Replace this use of System.out or System.err by a logger.(×•œ²8Ûÿ¡å,H•RMAJORZ
 CODE_SMELL

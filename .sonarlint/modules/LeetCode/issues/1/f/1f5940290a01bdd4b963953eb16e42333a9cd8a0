@@ -1,9 +1,9 @@
 
 l
-squid:S106%"9Replace this use of System.out or System.err by a logger.(˜§ç8ô‚áóØ,H‘RMAJORZ
+squid:S106'"9Replace this use of System.out or System.err by a logger.(˜§ç8ÖÀ¯óØ,HşRMAJORZ
 CODE_SMELL
-qsquid:S1197"8Move the array designator from the variable to the type.(‚í°™øÿÿÿÿ8âİ¬óØ,HàRMINORZ
+qsquid:S1197"8Move the array designator from the variable to the type.(‚í°™øÿÿÿÿ8âİ¬óØ,HÿRMINORZ
 CODE_SMELL
 l
-squid:S106"9Replace this use of System.out or System.err by a logger.(±©¯¦8ÖÀ¯óØ,HëRMAJORZ
+squid:S106"9Replace this use of System.out or System.err by a logger.(±©¯¦8ô‚áóØ,HıRMAJORZ
 CODE_SMELL

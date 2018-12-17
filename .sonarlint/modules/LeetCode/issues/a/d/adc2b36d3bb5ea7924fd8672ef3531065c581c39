@@ -1,9 +1,12 @@
 
-squid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ƒÃÓõøÿÿÿÿH¾RMINORZ
+q
+squid:S106"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ8ÅçÅÙú,H›!RMAJORZ
 CODE_SMELL
-esquid:S1481
-",Remove this unused "myArray" local variable.(ßæ¹ôıÿÿÿÿ8–Ñ°Ïà,HÂRMINORZ
+squid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ƒÃÓõøÿÿÿÿH!RMINORZ
 CODE_SMELL
-tsquid:S1854
-";Remove this useless assignment to local variable "myArray".(ßæ¹ôıÿÿÿÿ8–Ñ°Ïà,HÃRMAJORZ
+l
+squid:S106"9Replace this use of System.out or System.err by a logger.(–Êá¢8¢ÒµÙú,H–!RMAJORZ
+CODE_SMELL
+q
+squid:S106"9Replace this use of System.out or System.err by a logger.(€éÑúÿÿÿÿ8¼¾ÁÙú,Hš!RMAJORZ
 CODE_SMELL
